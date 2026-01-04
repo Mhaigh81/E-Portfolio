@@ -142,6 +142,8 @@ header {
 
 .modal--open nav,
 .modal--open .scroll,
+.modal--open nav,
+.modal--open .mail__btn,
 .modal--open header {
     opacity: 10;
     visibility: hidden;
@@ -166,13 +168,18 @@ header {
 .dark-theme .scroll__icon {
     border-color: white;
 }
+
 .dark-theme .scroll__icon:after,
 .dark-theme .link__hover-effect--black:after {
     background-color: white;
 }
+
 .dark-theme .mail__btn{
     background-color: white;
     color: #242424;
+}
+.dark-theme .mail__btn:hover{
+    color: #4bb543;
 }
 
 
