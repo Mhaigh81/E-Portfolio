@@ -426,7 +426,7 @@ nav {
 
 .form__submit {
     background-color: #f06449;
-    border: 2 px solid #f06449;
+    /* border: 2 px solid #f06449; */
     color: white;
     font-size: 20px;
     font-weight: bold;
